@@ -1,0 +1,132 @@
+.groupChild,
+.groupItem {
+  position: absolute;
+  left: 0;
+}
+.groupChild {
+  top: 50px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray);
+  width: 1263px;
+  height: 468px;
+}
+.groupItem {
+  top: 0;
+  border-radius: var(--br-3xs);
+  border: 3px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  width: 1165.33px;
+  height: 179.6px;
+}
+.inputtextarea {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  color: #fff;
+}
+.groupInner,
+.rectangleGroup {
+  position: absolute;
+  top: 165px;
+  left: 47px;
+  width: 1165.33px;
+  height: 179.6px;
+}
+.groupInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-royalblue);
+  border: 2px solid var(--color-powderblue);
+  box-sizing: border-box;
+  width: 1165px;
+  height: 58.78px;
+}
+.button,
+.rectangleContainer {
+  position: absolute;
+  cursor: pointer;
+}
+.button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 13px;
+  left: 543px;
+  font-size: var(--font-size-17xl);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 102px;
+  height: 32px;
+}
+.rectangleContainer {
+  top: 369px;
+  left: 49px;
+  width: 1165px;
+  height: 58.78px;
+}
+.arrowIcon,
+.div {
+  position: absolute;
+}
+.div {
+  top: 82px;
+  left: 62px;
+  font-weight: 500;
+  display: inline-block;
+  width: 183px;
+  height: 29.61px;
+}
+.arrowIcon {
+  top: -11.05px;
+  left: 22.5px;
+  width: 59.5px;
+  height: 22.09px;
+}
+.rectangleDiv,
+.rectangleParent {
+  position: absolute;
+  top: 167px;
+  left: 88px;
+  width: 1263px;
+  height: 518px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-dodgerblue);
+  width: 99px;
+  height: 55px;
+}
+.groupDiv,
+.groupIcon {
+  position: absolute;
+  top: 6.66px;
+  left: 20.64px;
+  width: 59.27px;
+  height: 41.16px;
+}
+.groupDiv {
+  top: 101px;
+  left: 88px;
+  width: 99px;
+  height: 55px;
+  cursor: pointer;
+}
+.suggBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
